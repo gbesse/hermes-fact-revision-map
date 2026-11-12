@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "id": "supplier-lead-time",
+      "revision": 2
+    }
+  ],
+  "documents": [
+    {
+      "id": "plan",
+      "reads": [
+        {
+          "fact": "supplier-lead-time",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "id": "draft",
+      "depends_on_documents": [
+        "plan"
+      ]
+    },
+    {
+      "id": "independent"
+    }
+  ]
+}

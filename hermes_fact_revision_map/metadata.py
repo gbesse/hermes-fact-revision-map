@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Préparer les corrections dépendant de versions de faits', 'en': 'Prepare corrections tied to specific fact revisions', 'es': 'Preparar correcciones ligadas a revisiones de hechos'}
